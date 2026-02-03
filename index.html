@@ -1,7 +1,176 @@
-<HTML>
-  <TITLE>RAHI FOUNDATION</TITLE>
-  <BODY>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAHI Foundation</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #0a6c5d;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url('https://images.unsplash.com/photo-1509099836639-18ba1795216d');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.section {
+    padding: 60px 10%;
+}
+
+.section h2 {
+    color: #0a6c5d;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background: #0a6c5d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background: #f9a825;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<header>
     <h1>RAHI Foundation</h1>
-    <p>this is the webpage for rahi foundation</p>
-  </BODY>
-</HTML>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#work">What We Do</a>
+        <a href="#team">Our Team</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h2>Empowering Communities. Enabling Dignity.</h2>
+    <p>Supporting women, children, and farmers through education, livelihoods, and sustainable development.</p>
+    <button>Partner With Us</button>
+</section>
+
+<section class="section">
+    <h2>Our Mission</h2>
+    <p>To create a just and equitable society by empowering vulnerable communities through innovative and sustainable development programs in education, livelihoods, gender equality, and resource management.</p>
+
+    <h2>Our Vision</h2>
+    <p>A world where every individual has access to basic rights, sustainable opportunities, and a dignified life free from discrimination and inequality.</p>
+</section>
+
+<section class="section" id="about">
+    <h2>About RAHI Foundation</h2>
+    <p>Established in 2025, RAHI Foundation is a non-profit organization dedicated to addressing critical social challenges faced by marginalized communities. We focus on long-term empowerment, self-reliance, and community-led development.</p>
+</section>
+
+<section class="section" id="work">
+    <h2>What We Do</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Education – RAHI Pathshala</h3>
+            <p>Providing foundational learning, life skills, and a nurturing environment for children of migrant and ragpicker families.</p>
+        </div>
+        <div class="card">
+            <h3>Women Empowerment</h3>
+            <p>Supporting rural women through self-help groups, financial literacy, leadership training, and livelihood opportunities.</p>
+        </div>
+        <div class="card">
+            <h3>Natural Farming & Livelihoods</h3>
+            <p>Helping farmers adopt eco-friendly farming methods that improve soil health and increase income.</p>
+        </div>
+        <div class="card">
+            <h3>Natural Resource Management</h3>
+            <p>Promoting afforestation, water conservation, and sustainable agricultural practices.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="team">
+    <h2>Our Team</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Prakash</h3>
+            <p>Program Implementation Lead with 25+ years of experience in livelihoods and social entrepreneurship.</p>
+        </div>
+        <div class="card">
+            <h3>Mousumi</h3>
+            <p>Mentor & Advisor with 30+ years of experience in gender justice, public health, and social advocacy.</p>
+        </div>
+        <div class="card">
+            <h3>Krati Prakash</h3>
+            <p>Mentor & Advisor with 18 years of leadership in gender equity initiatives.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> R-7109 Devender Vihar, Sector 56, Gurgaon – 122011, Haryana, India</p>
+    <p><strong>Email:</strong> info@rahifoundation.org</p>
+    <p><strong>Phone:</strong> +91-XXXXXXXXXX</p>
+</section>
+
+<footer>
+    © 2026 RAHI Foundation | Empowering Communities Sustainably
+</footer>
+
+</body>
+</html>
