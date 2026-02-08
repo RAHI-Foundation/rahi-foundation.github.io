@@ -29,7 +29,7 @@ nav a {
 
 .hero img {
     width: 100%;
-    height: 400px;
+    height: 300px;
     object-fit: cover;
     filter: brightness(60%);
 }
@@ -40,7 +40,7 @@ nav a {
     transform: translate(-50%, -50%);
 }
 
-.hero1 img {
+.hero1 img {grid
     width: 100%;
     height: 400px;
     object-fit: cover;
@@ -76,13 +76,13 @@ nav a {
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    gap: 10px;
 }
 
 .card {
     background: #f4f4f4;
-    padding: 20px;
-    border-radius: 8px;
+    /* padding: 10px; */
+    border-radius: 6px;
     text-align: center;
     display: flex;
     flex-direction: column;
